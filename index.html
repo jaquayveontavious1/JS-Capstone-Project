@@ -9,25 +9,296 @@
     <title>Cinema Central</title>
     <!--Link to CSS-->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/images/8b8543289fe00be3351eac1ccc6ed6ea-removebg-preview (1).png" type="image/x-icon">
+    <link rel="icon" href="/images/8b8543289fe00be3351eac1ccc6ed6ea-removebg-preview(1).png" type="image/x-icon">
 </head>
 <body>
     <div class="Navbar">
         <div class="left-content">
             <img src="/images/menu_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="menu" id="menu" >
-            <h2>Cinema Central</h2>
+            <h2>Cinema </h2>
         </div>
         <div class="middle-content">
            
             <input type="text" placeholder="Search for a movie,tv shows and live shows" aria-label="Search" id="search">
+           <button id="searchButton">Search</button>
+          
            
         </div>
-        <div class="right-content">
+        <div class="left-content">
             <button id="create">Create Account</button>
             <button id="sign">Sign In</button>
         </div>
+      
+        
     </div>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar-items">
+                <div class="closeC">
+                    <img src="/images/close_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Close" id="closeCart">
+                </div>
+                <div class="sidebar-item-1">
+                    <img src="images/home_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Home" class="img1">
+                    <span id="home">Home</span>
+                </div>
+                <div class="sidebar-item-2">
+                    <img src="/images/local_fire_department_FILL0_wght400_GRAD0_opsz24.svg" alt="Trending" class="img1" >
+                    <span id="trending">Trending </span>
+                </div>
+                <div class="sidebar-item-3">
+                   <img src="/images/movie_FILL0_wght400_GRAD0_opsz24.svg" alt="Movies" class="img1">
+                    <span id="movies">Movies</span>
+                </div>
+                <div class="sidebar-item-4">
+                  <img src="/images/travel_explore_FILL0_wght400_GRAD0_opsz24.svg" alt="Explore" class="img1">
+                    <span id="explore">Explore</span>
+                </div>
+                <div class="sidebar-item-5">
+                    <img src="/images/favorite_FILL0_wght400_GRAD0_opsz24.svg" alt="Favourites" class="img1">
+                    <span id="favourites">Favourites</span>
+                </div>
+                <div class="sidebar-item-6">
+                   <img src="/images/download_FILL0_wght400_GRAD0_opsz24.svg" alt="Download" class="img1">
+                    <span id="download">Download</span>
+                </div>
+              
+            </div>
+        </div>
+        <div class="movies">
+            <div class="main-movie">
+                <div class="navigation-buttons">
+                    <button class="previous-navBtn">
+                        <img src="/images/navigate_before_FILL0_wght400_GRAD0_opsz24.png" alt="Navigate-Before">
+                    </button>
+                    <button class="next-navBtn">
+                        <img src="/images/navigate_next_FILL0_wght400_GRAD0_opsz24.png" alt="Navigate-Next">
+                    </button>
 
-    
+                </div>
+                <div class="slider-carousel">
+                    <div class="images main">
+                        <img src="/images/26097_1rb5.jpg" alt="Hitman's Bodyguard" id="main-img" width="1060" height="550">
+                        <h2 id="movie-title">Hitman's Wife Bodyguard</h2>
+                        <h3>Duration : 1hr 57min</h3>
+                        <h3 id="date">Release Date : 14 June 2021</h3>
+                        <button id="playBtn">
+                            <img src="/images/play_circle_FILL0_wght400_GRAD0_opsz24.png" alt="Play Button">
+                        </button>
+                    </div>
+                    <div class="images main">
+                        <img src="/images/chernobyl-movie.webp" alt="chernobyl-movie" id="main-img" width="1060" height="550">
+                        <h2 id="movie-title">Chernobyl-movie</h2>
+                        <h3>Duration : 2hr 16min</h3>
+                        <h3 id="date">Release Date : 15th April 2021</h3>
+                        <button id="playBtn">
+                            <img src="/images/play_circle_FILL0_wght400_GRAD0_opsz24.png" alt="Play Button">
+                        </button>
+                    </div>
+                    <div class="images main">
+                        <img src="/images/the song.jpeg" alt="the song" id="main-img" width="1060" height="550">
+                        <h2 id="movie-title">The Song</h2>
+                        <h3>Duration : 1hr 56min</h3>
+                        <h3 id="date">Release Date :26th Sep 2014</h3>
+                        <button id="playBtn">
+                            <img src="/images/play_circle_FILL0_wght400_GRAD0_opsz24.png" alt="Play Button">
+                        </button>
+                    </div>
+                    <div class="images main">
+                        <img src="/images/project-power.jpeg" alt="project-power" id="main-img" width="1060" height="550">
+                        <h2 id="movie-title">Project Power</h2>
+                        <h3>Duration : 2hr 16min</h3>
+                        <h3 id="date">Release Date : 14th August 2020</h3>
+                        <button id="playBtn">
+                            <img src="/images/play_circle_FILL0_wght400_GRAD0_opsz24.png" alt="Play Button">
+                        </button>
+                    </div>
+                    <div class="images main">
+                        <img src="/images/Ford_v._Ferrari_(2019_film_poster).png" alt="ford vs ferrari" id="main-img" width="1060" height="550">
+                        <h2 id="movie-title">Ford VS Ferrari</h2>
+                        <h3>Duration : 2hr 16min</h3>
+                        <h3 id="date">Release Date : 15th April 2021</h3>
+                        <button id="playBtn">
+                            <img src="/images/play_circle_FILL0_wght400_GRAD0_opsz24.png" alt="Play Button">
+                        </button>
+                    </div>
+                </div>
+        
+            
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="popular-movies">Popular Movies</h1>
+                  
+                    <div class="movie-wrapper">
+                        <div class="wrapper">
+                            <!--Movie Box 1-->
+                            <div id="movie-box">
+                                <img src="/images/6-underground.jpg" alt="6-Underground" width="210" height="210" id="movie-img">
+                                <div class="movie-content">
+                                   <p>  6-Underground</p>
+                                    <p>HD : 2019</p>
+                                    <p>Action/Thriller</p>
+                                    <div class="timing">
+                                        <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                        <p>128 mins</p>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!--Movie Box 2-->
+                            <div id="movie-box-1">
+                                <img src="/images/bad-boys-for-life.jpeg" alt="bad-boys-for-life" width="210" height="210" id="movie-img">
+                                <div class="movie-content">
+                                   <p> Bad Boys</p>
+                                    <p>HD : 2020</p>
+                                    <p>Action/Comedy</p>
+                                    <div class="timing">
+                                        <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                        <p>124 mins</p>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!--Movie Box 3-->
+                            <div id="movie-box-2">
+                                <img src="/images/Black_Panther_Wakanda_Forever_poster.jpg" alt="Black_Panther_Wakanda_Forever_poster" width="210" height="210" id="movie-img">
+                                <div class="movie-content">
+                                   <p>Black Panther 2</p>
+                                    <p>HD : 2022</p>
+                                    <p>Action/Sci-fi</p>
+                                    <div class="timing">
+                                        <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                        <p>161 mins</p>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!--Movie Box 4-->
+                            <div id="movie-box-3">
+                                <img src="/images/bullet-train.jpeg" alt="Bullet Train" width="210" height="210" id="movie-img">
+                                <div class="movie-content">
+                                   <p>Bullet Train</p>
+                                    <p>HD : 2022</p>
+                                    <p>Action/Comedy</p>
+                                    <div class="timing">
+                                        <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                        <p>128 mins</p>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!--Movie box 5-->
+                            <div id="movie-box-4">
+                                <img src="/images/far-from-home.jpeg" alt="Spiderman : Far from home" width="210" height="210" id="movie-img">
+                                <div class="movie-content">
+                                   <p>Spiderman</p>
+                                    <p>HD : 2019</p>
+                                    <p>Action/Sci-fi</p>
+                                    <div class="timing">
+                                        <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                        <p>130 mins</p>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Upcoming-movies">
+                    <div class="Upcoming-movies-content">
+                        <h1 id="upcoming-movies-title">Upcoming Movies</h1>
+                    </div>
+                    <div class="movie-wrapper-1">
+                        <div class="movie-container">
+                            <!--Movie-box-6-->
+                            <div class="movie-box-5">
+                                <img src="/images/Ford_v._Ferrari_(2019_film_poster).png" alt="Ford Vs Ferrari" width="210" height="210">
+                                <div class="movie-content-new">
+                                    <p>Ford V Ferrari</p>
+                                    <p>HD : 2019</p>
+                                    <p>Action/Sport</p>
+                                    <div class="timing-1">
+                                         <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                         <p>152 mins</p>
+                                     
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                                 <!--Movie-box-7-->
+                            <div class="movie-box-6">
+                                    <img src="/images/jumanji-welcome-to-the-jungle.jpg" alt="Jumanji" width="210" height="210">
+                                    <div class="movie-content-new-2">
+                                        <p>Jumanji</p>
+                                        <p>HD : 2017</p>
+                                        <p>Action/Comedy</p>
+                                        <div class="timing-2">
+                                             <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                             <p>120 mins</p>
+                                         
+                                        </div>
+                                     
+                                    </div>
+                            </div>
+                                 <!--Movie-box-8-->
+                            <div class="movie-box-7">
+                                    <img src="/images/shutter island.jpeg" alt="Shutter Island" width="210" height="210">
+                                    <div class="movie-content-new-3">
+                                        <p>Shutter Island</p>
+                                        <p>HD : 2010</p>
+                                        <p>Thriller/Mystery</p>
+                                        <div class="timing-2" id="timeduration">
+                                             <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                             <p id="time">138 mins</p>
+                                         
+                                        </div>
+                                     
+                                    </div>
+                            </div>
+                                 <!--Movie-box-9-->
+                            <div class="movie-box-8">
+                                    <img src="/images/santana.jpeg" alt="Santana" width="210" height="210">
+                                    <div class="movie-content-new-3">
+                                        <p>Santana</p>
+                                        <p>HD : 2020</p>
+                                        <p>Action/Thirller</p>
+                                        <div class="timing-2" id="timeduration">
+                                             <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                             <p id="time">138 mins</p>
+                                         
+                                        </div>
+                                     
+                                    </div>
+                            </div>
+                                 <!--Movie-box-10-->
+                            <div class="movie-box-9">
+                                    <img src="/images/trial-of-the-chicago-7.jpg" alt="Trial of thE Chicago 7" width="210" height="210">
+                                    <div class="movie-content-new-3">
+                                        <p>Chicago-7</p>
+                                        <p>HD : 2020</p>
+                                        <p>Thirller</p>
+                                        <div class="timing-2" id="timeduration">
+                                             <img src="/images/schedule_FILL0_wght400_GRAD0_opsz24.png" alt="Schedule">
+                                             <p id="time">138 mins</p>
+                                         
+                                        </div>
+                                     
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="movies.js"></script>
 </body>
 </html>
