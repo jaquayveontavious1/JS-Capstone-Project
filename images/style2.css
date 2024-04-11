@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  width: 100px ;
+  height: 40px;
+ 
+ 
+}
+h3 {
+    margin-top: 80px;
+}
+body {
+  background-color:black;
+  color: #fff;
+}
+#movieInfo div {
+  border: cadetblue;
+}
+#movie-title {
+  margin-left: 500px;
+  color: cadetblue;
+  margin-top: 10px;
+}
+#movie-plot {
+
+  margin-top: 338px;
+  
+  margin-left: 300px;
+  
+}
+#movie-genres {
+  margin-left: 400px;
+  margin-top: 30px;
+  display: flex;
+  color: #a0a0a0;
+  border: 1px solid #a0a0a0;
+  font-size: 0.95em;
+    padding: 0.4em 1.6em;
+  text-align: center;
+  align-items: center;
+  font-weight: 300 ;
+  border-radius: 0.4em;
+  width: 300px;
+}
+#movie-year {
+  margin-left: 600px;
+  margin-top: -220px;
+}
+
+#movieInput {
+  margin-top: 130px;
+  margin-left: 450px;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#movie-actors {
+  margin-bottom: 80px;
+  color: #a0a0a0;
+  font-style: normal;
+  font-size: 18px;
+}
+#movie-plot {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #a0a0a0;
+  font-size: 18px;
+}
+#movie-rated {
+  margin-left: 350px;
+  margin-top: -78px;
+}
+#movie-runtime {
+  margin-left:470px;
+  margin-top: -20px;
+}
+#movie-director {
+  margin-top: -30px;
+  color: #a0a0a0;
+}
